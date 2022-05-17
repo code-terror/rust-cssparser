@@ -1,0 +1,6 @@
+project: code-terror/rust-cssparser
+target: cssparser
+
+cmds:
+  - cmd: ./cssparser
+        libfuzzer: true
